@@ -1,0 +1,29 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samar-alazzam/CICD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samar-alazzam/CICD/issues"
+  },
+  "homepage": "https://github.com/samar-alazzam/CICD#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
+  }
+}
